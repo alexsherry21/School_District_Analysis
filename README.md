@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, we used Python's Pandas and NumPy libraries to remove Thomas High School's ninth-grade class and re-analyze our school district data.
+In this module, we used Python's Pandas and NumPy libraries to replace Thomas High School's ninth-grade class and re-analyze our school district data.
 
 ## Results
 
@@ -16,7 +16,7 @@ Challenge Replacement District Dataframe
 
 ![challengedistrict](challengedistrict.png)
 
-The removal of Thomas High School's ninth-grade class caused the following changes in the district summary (differences calculated using the unrounded module district summary dataframe instead of the formatted module district summary for accuracy):
+The replacement of Thomas High School's ninth-grade class caused the following changes in the district summary (differences calculated using the unrounded module district summary dataframe instead of the formatted module district summary for accuracy):
 
 - Decrease in average math score by 0.1 points
 - Decrease in math passing percentage by 0.2%
@@ -49,4 +49,4 @@ When we examine the school summary dataframes, we see that compared to the distr
 
 It is interesting that the replacement caused Thomas High School's average reading scores to actually increase by a small amount, while the reading passing rate decreased by almost three tenths of a percent.  This would imply that before replacement, Thomas High School's ninth-grade class either had a disproptionately high number of very marginal passing grades, or a disproportionately high number of very low failing grades.
 
-Somehow, we are able to notice changes at the district level but not when the data is grouped by school spending, size, or type.  Thomas High School's very high marks in both math and reading in drive it to the district's second best overall passing percentage.  This means that their 461 ninth-graders represented a small but decent portion of the right tail of the district data's metrics.  Thomas High School's scores were also very uniform across grades.  While their 461 ninth graders represent a larger portion of each of the bins they are in than of the district, they and Thomas High School's averages are mostly closer to those of their bins than those of the district, leading the replacement to not cause significant enough differences to be noticed in our updated dataframes for spending, size, and type.
+Somehow, we are able to notice changes at the district level but not when the data is grouped by school spending, size, or type.  Thomas High School's very high marks in both math and reading drive it to the district's second best overall passing percentage.  This means that their 461 ninth-graders represented a small but decent portion of the right tail of the district data's metrics.  Thomas High School's scores were also very uniform across grades.  While their 461 ninth graders represent a larger portion of each of the bins they are in than of the district, they and Thomas High School's averages are mostly closer to those of their bins than those of the district, leading the replacement to not cause significant enough differences to be noticed in our updated dataframes for spending, size, and type.
